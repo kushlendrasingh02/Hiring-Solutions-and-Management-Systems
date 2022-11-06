@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!--====== SIGNIN ONE PART START ======-->
+<section class="signin-area signin-one">
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-lg-5">
+            <form action="#" method="post">
+               <div class="signin-form form-style-two rounded-buttons">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="form-input">
+                           <label>Your account will be under this email</label>
+                           <div class="input-items default">
+                              <input 
+                                 type="text"
+                                 id="email"
+                                 name="email" 
+                                 placeholder="Email" 
+                              />
+                              <i class="lni lni-envelope"></i>
+                           </div>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-input">
+                           <label>
+                           Name will be used to personalize your experience
+                           </label>
+                           <div class="input-items default">
+                              <input 
+                                 type="text"
+                                 id="username"
+                                 name="username"  
+                                 placeholder="Name" 
+                              />
+                              <i class="lni lni-user"></i>
+                           </div>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-input">
+                           <label>Password for your account</label>
+                           <div class="input-items default">
+                              <input 
+                                 type="password"
+                                 id="password1"
+                                 name="password1" 
+                                 placeholder="Password" 
+                              />
+                              <i class="lni lni-key"></i>
+                           </div>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-input">
+                           <label>Confirm Password for your account</label>
+                           <div class="input-items default">
+                              <input 
+                                 type="password"
+                                 id="password2"
+                                 name="password2" 
+                                 placeholder="Confirm Password" 
+                              />
+                              <i class="lni lni-key"></i>
+                           </div>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-input rounded-buttons">
+                           <button
+                              class="btn primary-btn rounded-full"
+                              type="submit"
+                              >
+                           Sign In!
+                           </button>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-input rounded-buttons">
+                           <button
+                              class="btn primary-btn-outline rounded-full"
+                              type="submit"
+                              >
+                           Sign Up
+                           </button>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-input text-center">
+                           <p class="text">
+                              By signing in you agree with the
+                              <a href="javascript:void(0)">Terms and Conditions</a>
+                              and
+                              <a href="javascript:void(0)">Privacy</a>
+                           </p>
+                        </div>
+                        <!-- form input -->
+                     </div>
+                  </div>
+               </div>
+               <!-- signin form -->
+            </form>
+         </div>
+      </div>
+      <!-- row -->
+   </div>
+   <!-- container -->
+</section>
+<!--====== SIGNIN ONE PART ENDS ======-->
+{% endblock %}
